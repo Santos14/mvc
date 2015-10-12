@@ -1,8 +1,8 @@
 <?php
 
-require_once ("../modelo/ModelEmpleado.php");
+require_once ("modelo/ModelEmpleado.php");
 
-$emp = new ModelEmpleado;
+$emp = new ModelEmpleado();
 $datos = $emp->get_personas();
 
-require_once ("../vistas/datosEmpleado.php");
+require_once ("vistas/datosEmpleado.php");
