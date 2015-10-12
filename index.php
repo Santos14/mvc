@@ -1,4 +1,4 @@
 <?php
 
-require_once ("");
-require_once ("");
+require_once ("./db/db.php");
+require_once ("./controlador/ControlerEmpleado.php");
